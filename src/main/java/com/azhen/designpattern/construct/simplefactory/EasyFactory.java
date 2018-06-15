@@ -1,4 +1,4 @@
-package com.azhen.designpattern.construct.factorymethod.simplefactory;
+package com.azhen.designpattern.construct.simplefactory;
 
 public class EasyFactory {
     // 简单工厂，根据字符串创建相应的对象

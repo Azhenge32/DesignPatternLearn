@@ -1,4 +1,4 @@
-package com.azhen.designpattern.construct.factorymethod.simplefactory;
+package com.azhen.designpattern.construct.simplefactory;
 
 public class Client {
     public static void main(String[] args) throws Exception {

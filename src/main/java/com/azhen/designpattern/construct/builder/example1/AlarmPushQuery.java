@@ -1,4 +1,4 @@
-package com.azhen.designpattern.construct.builder;
+package com.azhen.designpattern.construct.builder.example1;
 
 public class AlarmPushQuery {
     private String pushType;
