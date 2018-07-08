@@ -1,4 +1,4 @@
-package com.azhen.designpattern.construct.abstractfactory.example;
+package com.azhen.designpattern.construct.abstractfactory.example1;
 
 /**
  * 抽象产品族类
