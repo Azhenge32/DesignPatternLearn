@@ -1,4 +1,4 @@
-package com.azhen.designpattern.structure.responsibility_chain.nextHandler;
+package com.azhen.designpattern.behavior.responsibility_chain.nextHandler;
 
 public class ManagerHandler implements Handler {
     private Handler nextHandler;

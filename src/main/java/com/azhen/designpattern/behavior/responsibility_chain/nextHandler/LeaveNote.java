@@ -1,4 +1,4 @@
-package com.azhen.designpattern.structure.responsibility_chain.nextHandler;
+package com.azhen.designpattern.behavior.responsibility_chain.nextHandler;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
