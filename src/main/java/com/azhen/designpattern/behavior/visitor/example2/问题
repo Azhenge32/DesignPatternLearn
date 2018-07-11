@@ -1,0 +1,4 @@
+我们注意到 Employee 类依赖于 EmployeeVisitor 基类。而 EmployeeVisitor 类为每个 Employee 的子类都提供了一个 Visit 方法。
+
+因此，这里形成了一个依赖关系的环。这导致 Visitor 在响应变化时变得复杂。
+    可通过转为对接口依赖，并使用向下转型，减少依赖范围，达到具体element和具体visit直接的依赖

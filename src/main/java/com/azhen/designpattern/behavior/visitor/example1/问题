@@ -1,0 +1,1 @@
+Employee 类及子类耦合了 Salary Report 相关的职责，这侵犯了单一职责原则（Single Responsibility Principle），因为其导致每次需要更改 Report 相关的职责时，都需要修改 Employee 类。
