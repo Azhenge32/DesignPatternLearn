@@ -1,6 +1,6 @@
-package com.azhen.refactoring.method_6;
+package com.azhen.refactoring.P6_method;
 
-public class ReplaceTempWithQuery {
+public class P20_ReplaceTempWithQuery {
     class One {
         double _quantity;
         double _itemPrice;

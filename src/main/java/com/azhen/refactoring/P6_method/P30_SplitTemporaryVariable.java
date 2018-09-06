@@ -1,9 +1,12 @@
-package com.azhen.refactoring.method_6;
+package com.azhen.refactoring.P6_method;
 
 /**
  * 防止变量责任过重
+ * 反例1.
+ * daoQuery
+ * dao
  */
-public class SplitTemporaryVariable {
+public class P30_SplitTemporaryVariable {
     class One {
         double _height;
         double _width;

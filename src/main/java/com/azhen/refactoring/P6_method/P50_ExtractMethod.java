@@ -1,9 +1,9 @@
-package com.azhen.refactoring.method_6;
+package com.azhen.refactoring.P6_method;
 
 /**
  * 将这段代码放进一个独立函数中，并让函数名称解释该函数的用途
  */
-public class ExtractMethod_110_1 {
+public class P50_ExtractMethod {
     class One {
         private String _name;
         void printOwing(double amount) {

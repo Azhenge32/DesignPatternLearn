@@ -1,6 +1,6 @@
-package com.azhen.refactoring.method_6;
+package com.azhen.refactoring.P6_method;
 
-public class InlineTemp {
+public class P80_InlineTemp {
     class One {
         double basePrice() {
             return 3.4;

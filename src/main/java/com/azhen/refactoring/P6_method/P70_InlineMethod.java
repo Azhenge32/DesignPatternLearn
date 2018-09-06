@@ -1,6 +1,6 @@
-package com.azhen.refactoring.method_6;
+package com.azhen.refactoring.P6_method;
 
-public class InlineMethod {
+public class P70_InlineMethod {
     class One {
         int _numberOfLateDeliveries;
         int getRating() {
