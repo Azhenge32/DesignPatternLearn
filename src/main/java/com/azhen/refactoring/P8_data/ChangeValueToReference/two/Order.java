@@ -11,7 +11,7 @@ public class Order {
     }
 
     public void setCustomer(String customer) {
-        Customer.create(customer)
+        Customer.create(customer);
     }
 
     private static int numberOfOrdersFor(Collection<Order> orders, String customer) {
