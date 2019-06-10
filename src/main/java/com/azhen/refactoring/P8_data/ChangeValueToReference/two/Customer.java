@@ -11,6 +11,11 @@ public class Customer {
         new Customer("Associated Coffee Machines").store();
         new Customer("Bilston Gasworks").store();
     }
+
+    public static Customer create(String name) {
+        return new Customer(name);
+    }
+
     private void store() {
         instances.put(this.getName(), this);
     }
