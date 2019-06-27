@@ -3,6 +3,7 @@ package com.azhen.other.structural.bridge;
 
 public class Test {
     public static void main(String[] args) {
+        // 账号类型x银行类型
         Bank icbcBank = new ICBCBank(new DepositAccount());
         Account icbcAccount = icbcBank.openAccount();
         icbcAccount.showAccountType();
